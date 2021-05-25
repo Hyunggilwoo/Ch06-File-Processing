@@ -37,9 +37,6 @@ public class Ch06{
 		
 		while( scan.hasNext()){
 			
-			
-			
-			
 			int amount = scan.nextInt();
 			String type = scan.next().toLowerCase();
 			
@@ -84,15 +81,7 @@ public class Ch06{
 	
 	public static void printDuplicates(Scanner console) throws FileNotFoundException
 	{
-		// What do I know: while(object.hasNext()) should identify all tokens in the file
 		
-		// What do I not know yet: How to print a repeated string like the following output - 
-		// how*2, you * 4
-		// I *3, Jack's * 2 smirking * 4
-		// What is algorithm to print obtain an integer from a string?
-		// 
-		// int counter = 0// counts the number of duplicates from the same line.
-		// duplicate = object.next(); also add a counter 
 		File file2 = new File("duplicates.txt");
 		Scanner object = new Scanner(file2);
 		
@@ -110,9 +99,9 @@ public class Ch06{
 				if(line.equals(now)) {
 					counter++;
 				} else {
-					if (counter > 1) {
+					if (counter > 1) 
 						System.out.print( now + "*" + counter +" ");
-					}
+					
 					
 					now = line;
 					counter = 1;
