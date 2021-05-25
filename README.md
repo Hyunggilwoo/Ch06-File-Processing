@@ -8,4 +8,6 @@ Please complete the following programming exercises from the textbook. You may a
 - 6.14 printDuplicates
 - 6.17 inputStats
 
-Be sure to document your source code and update this README. Please contact me if you need assistance.
+I have trouble passing the 6.14 and 6.17 on the tester.
+I would appreciate your help in editting them.
+
